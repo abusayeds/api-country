@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: aliceblue;
+}
+
+#countris-display{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+}
+.singlecountry{
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 25px;
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+.main h1{
+    text-align: center;
+    
+}
